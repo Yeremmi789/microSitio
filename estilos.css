@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+h1{
+    /*background-color: blueviolet;*/
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+header{
+    background-color: aquamarine;
+    display: flex;
+
+}
+nav ul li{
+    list-style: none;
+    margin-left: 20px;
+    float: left ;
+    padding: 10px;
+}
+
+.colorLetra{
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+}
+
+
+.formulario1{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario_1{
+    display: flex;
+    
+    width: 400px;
+    height: 300px;
+    
+    justify-content: center;
+    flex-direction: column;
+}
+
+.posicionBTN{
+    display: flex;
+    justify-content: center;
+
+    justify-content: space-between;
+}
+
+
+/* TABLA LISTADO*/
+h3{
+    display: flex;
+    /* justify-content: center; */
+
+}
+.titulolistado{
+   display: flex; 
+   /* justify-content: center; */
+   
+}
+
+.listaRSA{
+background-color: aqua;
+}
+
+
+#listaaa{
+    background-color: blueviolet;   
+}
+
+
+.espacio_tabla{
+    display: flex;
+    width: 500px;
+    height: 200px;
+    
+    background-color: brown;
+}
+
+.letras{
+    font-size: 20px;
+    width: 200px;
+}
+
+.letras2{
+    font-size: 20px;
+    width: 200px;
+}
+
+body{
+    background-color: rgb(228, 228, 228);
+}
+
+.cajaMayor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;   
+}
+
+.cajakeys{
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 0px 40px 0px;
+    margin-top: 50px;
+    width: 500px;
+
+    box-shadow: 5px 5px 15px 1px; 
+    
+}
+    
+h3{
+    font-size: 20px;
+    font-family: cursive;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.titulokeys{
+ background-color: rgba(89, 201, 74, 0.993);
+ display: flex;
+ justify-content: center;
+
+
+}
+
+
+.opcionesCaja{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px 0px 10px;
+    
+}
+
+.hash_1{
+    background-color: red;
+}
