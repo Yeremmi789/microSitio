@@ -10,6 +10,9 @@ $contraseña_p = password_hash($contraseña, PASSWORD_DEFAULT);
 $correo_p = password_hash($correo, PASSWORD_DEFAULT);
 
 if(password_verify($v_contraseña, $contraseña_p)){
+    echo "<script> alert('Verificación exitosa');
+    'alert('La contraseña esta escrita correctamente');
+    </script>";
     $insertar = "INSERT INTO usuario_hash(nombre,correo,contraseña) VALUES ('$nombre','$correo_p','$contraseña_p')";
     $query = mysqli_query($conect,$insertar);
     if($query){

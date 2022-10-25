@@ -41,6 +41,7 @@ if (isset($_POST['dato_cifrado'])) {
                 <li><a class="colorLetra" href="../asimetrico/listadoRSA.php" style="text-decoration: none;">ListadoPacientes RSA</a></li>
                 <li><a class="colorLetra" href="../hash/hash_v1.php" style="text-decoration: none;">Hash v1</a></li>
                 <li><a class="colorLetra" href="../hash/hash_v2.php" style="text-decoration: none;">Hash v2</a></li>
+                <li><a class="colorLetra" href="../yo/yo.php" style="text-decoration: none;">YO</a></li>
             </ul>
         </nav>
     </header>
